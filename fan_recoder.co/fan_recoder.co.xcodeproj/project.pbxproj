@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46B6DD0F1646F893B5C1DB56 /* Pods_fan_recoder_coTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37352E34538DB53CFEC9E94 /* Pods_fan_recoder_coTests.framework */; };
+		49CC7E93639AF40B6479DC50 /* Pods_fan_recoder_coUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5E1B618FC319957372291D /* Pods_fan_recoder_coUITests.framework */; };
+		A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3032859B5100085FF7E /* RxSwift5.swift */; };
+		A69DE3062859B8DC0085FF7E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3052859B8DC0085FF7E /* Common.swift */; };
+		E410249025B67B3400D51F30 /* Combining_Obseravles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410248F25B67B3400D51F30 /* Combining_Obseravles.swift */; };
+		E410249725B6B77800D51F30 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410249625B6B77800D51F30 /* TestView.swift */; };
+		E41E4ABB25C50E70000838BC /* LcocatizedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E4ABA25C50E70000838BC /* LcocatizedData.swift */; };
+		E438731025C8E0990098733C /* ContentsTableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E438730F25C8E0990098733C /* ContentsTableSection.swift */; };
+		E43F6D4B25BE569E0030FDB9 /* DeleteClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F6D4A25BE569E0030FDB9 /* DeleteClass.swift */; };
+		E46BE8C425B00F27003393A4 /* PrivateColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BE8C325B00F27003393A4 /* PrivateColor.swift */; };
+		E4858C0925C106B100A6C616 /* ContentsRxTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4858C0825C106B100A6C616 /* ContentsRxTableView.swift */; };
+		E485D82225ABF7E400B51F0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485D82125ABF7E400B51F0E /* AppDelegate.swift */; };
+		E485D82425ABF7E400B51F0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485D82325ABF7E400B51F0E /* SceneDelegate.swift */; };
+		E485D82625ABF7E400B51F0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485D82525ABF7E400B51F0E /* ViewController.swift */; };
+		E485D82925ABF7E400B51F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485D82725ABF7E400B51F0E /* Main.storyboard */; };
+		E485D82C25ABF7E400B51F0E /* fan_recoder_co.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E485D82A25ABF7E400B51F0E /* fan_recoder_co.xcdatamodeld */; };
+		E485D82E25ABF7E400B51F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E485D82D25ABF7E400B51F0E /* Assets.xcassets */; };
+		E485D83125ABF7E400B51F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485D82F25ABF7E400B51F0E /* LaunchScreen.storyboard */; };
+		E485D83C25ABF7E400B51F0E /* fan_recoder_coTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485D83B25ABF7E400B51F0E /* fan_recoder_coTests.swift */; };
+		E485D84725ABF7E400B51F0E /* fan_recoder_coUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485D84625ABF7E400B51F0E /* fan_recoder_coUITests.swift */; };
+		E48C574325AC4AF8004623FE /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C574225AC4AF8004623FE /* firstView.swift */; };
+		E48C574625AC53F7004623FE /* String_format.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = E48C574525AC53F7004623FE /* String_format.rtfd */; };
+		E4A21E8E25F9F1E9003E3DFB /* TestView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A21E8D25F9F1E9003E3DFB /* TestView.storyboard */; };
+		E4A21E9025FB36F8003E3DFB /* ContentsTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A21E8F25FB36F8003E3DFB /* ContentsTableViewModel.swift */; };
+		E4A21E9325FB4262003E3DFB /* DebugLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A21E9225FB4262003E3DFB /* DebugLog.swift */; };
+		E4A21E9B25FB677C003E3DFB /* RxtableViewController2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A21E9A25FB677C003E3DFB /* RxtableViewController2.storyboard */; };
+		E4A21E9D25FB6798003E3DFB /* RxtableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */; };
+		E4A6254625CBC7430033D214 /* RxtableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6254525CBC7430033D214 /* RxtableViewController.swift */; };
+		E4A6254825CBC76D0033D214 /* RxtableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */; };
+		EDC3C7A19998F541B27A59ED /* Pods_fan_recoder_co.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B1FE9419ED713906E9AB9B /* Pods_fan_recoder_co.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E485D83825ABF7E400B51F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E485D81625ABF7E400B51F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E485D81D25ABF7E400B51F0E;
+			remoteInfo = fan_recoder.co;
+		};
+		E485D84325ABF7E400B51F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E485D81625ABF7E400B51F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E485D81D25ABF7E400B51F0E;
+			remoteInfo = fan_recoder.co;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0448DC83D1040EF3C33DD529 /* Pods-fan_recoder.co.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.co.debug.xcconfig"; path = "Target Support Files/Pods-fan_recoder.co/Pods-fan_recoder.co.debug.xcconfig"; sourceTree = "<group>"; };
+		25906268FA7241C5868C1E74 /* Pods-fan_recoder.co-fan_recoder.coUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.co-fan_recoder.coUITests.debug.xcconfig"; path = "Target Support Files/Pods-fan_recoder.co-fan_recoder.coUITests/Pods-fan_recoder.co-fan_recoder.coUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3A2207BBAC6681EF2C31BE /* Pods-fan_recoder.coTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coTests.debug.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coTests/Pods-fan_recoder.coTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E86F755A4988F47F7402969 /* Pods-fan_recoder.coUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coUITests.release.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coUITests/Pods-fan_recoder.coUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81B1FE9419ED713906E9AB9B /* Pods_fan_recoder_co.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fan_recoder_co.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5E1B618FC319957372291D /* Pods_fan_recoder_coUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fan_recoder_coUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F01604B2A3194EF58D074B0 /* Pods-fan_recoder.co-fan_recoder.coUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.co-fan_recoder.coUITests.release.xcconfig"; path = "Target Support Files/Pods-fan_recoder.co-fan_recoder.coUITests/Pods-fan_recoder.co-fan_recoder.coUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A071C21640DC862E238BF842 /* Pods-fan_recoder.co.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.co.release.xcconfig"; path = "Target Support Files/Pods-fan_recoder.co/Pods-fan_recoder.co.release.xcconfig"; sourceTree = "<group>"; };
+		A69DE3032859B5100085FF7E /* RxSwift5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift5.swift; sourceTree = "<group>"; };
+		A69DE3052859B8DC0085FF7E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		BF8945E94E80C9AF563FA5B8 /* Pods-fan_recoder.coUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coUITests.debug.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coUITests/Pods-fan_recoder.coUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D37352E34538DB53CFEC9E94 /* Pods_fan_recoder_coTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fan_recoder_coTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D976A161E413DCD1D2A7AC6E /* Pods-fan_recoder.coTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coTests.release.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coTests/Pods-fan_recoder.coTests.release.xcconfig"; sourceTree = "<group>"; };
+		E410248F25B67B3400D51F30 /* Combining_Obseravles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combining_Obseravles.swift; sourceTree = "<group>"; };
+		E410249625B6B77800D51F30 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E41E4ABA25C50E70000838BC /* LcocatizedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LcocatizedData.swift; sourceTree = "<group>"; };
+		E438730F25C8E0990098733C /* ContentsTableSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableSection.swift; sourceTree = "<group>"; };
+		E43F6D4925BE54D40030FDB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E43F6D4A25BE569E0030FDB9 /* DeleteClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteClass.swift; sourceTree = "<group>"; };
+		E46BE8BA25AD4C5F003393A4 /* Array_use.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Array_use.md; sourceTree = "<group>"; };
+		E46BE8C325B00F27003393A4 /* PrivateColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateColor.swift; sourceTree = "<group>"; };
+		E4858C0825C106B100A6C616 /* ContentsRxTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsRxTableView.swift; sourceTree = "<group>"; };
+		E485D81E25ABF7E400B51F0E /* fan_recoder.co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fan_recoder.co.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E485D82125ABF7E400B51F0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E485D82325ABF7E400B51F0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E485D82525ABF7E400B51F0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E485D82825ABF7E400B51F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E485D82B25ABF7E400B51F0E /* fan_recoder_co.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fan_recoder_co.xcdatamodel; sourceTree = "<group>"; };
+		E485D82D25ABF7E400B51F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E485D83025ABF7E400B51F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E485D83225ABF7E400B51F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E485D83725ABF7E400B51F0E /* fan_recoder.coTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fan_recoder.coTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E485D83B25ABF7E400B51F0E /* fan_recoder_coTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fan_recoder_coTests.swift; sourceTree = "<group>"; };
+		E485D83D25ABF7E400B51F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E485D84225ABF7E400B51F0E /* fan_recoder.coUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fan_recoder.coUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E485D84625ABF7E400B51F0E /* fan_recoder_coUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fan_recoder_coUITests.swift; sourceTree = "<group>"; };
+		E485D84825ABF7E400B51F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48C574225AC4AF8004623FE /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		E48C574525AC53F7004623FE /* String_format.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = String_format.rtfd; sourceTree = "<group>"; };
+		E4A21E8C25F9EEA0003E3DFB /* simple_code.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = simple_code.md; sourceTree = "<group>"; };
+		E4A21E8D25F9F1E9003E3DFB /* TestView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestView.storyboard; sourceTree = "<group>"; };
+		E4A21E8F25FB36F8003E3DFB /* ContentsTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewModel.swift; sourceTree = "<group>"; };
+		E4A21E9225FB4262003E3DFB /* DebugLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLog.swift; sourceTree = "<group>"; };
+		E4A21E9A25FB677C003E3DFB /* RxtableViewController2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxtableViewController2.storyboard; sourceTree = "<group>"; };
+		E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxtableViewController2.swift; sourceTree = "<group>"; };
+		E4A6254525CBC7430033D214 /* RxtableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxtableViewController.swift; sourceTree = "<group>"; };
+		E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxtableViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E485D81B25ABF7E400B51F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3C7A19998F541B27A59ED /* Pods_fan_recoder_co.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E485D83425ABF7E400B51F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B6DD0F1646F893B5C1DB56 /* Pods_fan_recoder_coTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E485D83F25ABF7E400B51F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CC7E93639AF40B6479DC50 /* Pods_fan_recoder_coUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B9D4881A3437C83EACAFE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81B1FE9419ED713906E9AB9B /* Pods_fan_recoder_co.framework */,
+				D37352E34538DB53CFEC9E94 /* Pods_fan_recoder_coTests.framework */,
+				8D5E1B618FC319957372291D /* Pods_fan_recoder_coUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		976AFDCFB0CFF583F4168746 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0448DC83D1040EF3C33DD529 /* Pods-fan_recoder.co.debug.xcconfig */,
+				A071C21640DC862E238BF842 /* Pods-fan_recoder.co.release.xcconfig */,
+				25906268FA7241C5868C1E74 /* Pods-fan_recoder.co-fan_recoder.coUITests.debug.xcconfig */,
+				8F01604B2A3194EF58D074B0 /* Pods-fan_recoder.co-fan_recoder.coUITests.release.xcconfig */,
+				5C3A2207BBAC6681EF2C31BE /* Pods-fan_recoder.coTests.debug.xcconfig */,
+				D976A161E413DCD1D2A7AC6E /* Pods-fan_recoder.coTests.release.xcconfig */,
+				BF8945E94E80C9AF563FA5B8 /* Pods-fan_recoder.coUITests.debug.xcconfig */,
+				7E86F755A4988F47F7402969 /* Pods-fan_recoder.coUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A69DE3022859B3AE0085FF7E /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				A69DE3032859B5100085FF7E /* RxSwift5.swift */,
+				E4A6254525CBC7430033D214 /* RxtableViewController.swift */,
+				E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */,
+				E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */,
+				E4A21E9A25FB677C003E3DFB /* RxtableViewController2.storyboard */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		E410248E25B67ADE00D51F30 /* mySwift */ = {
+			isa = PBXGroup;
+			children = (
+				E410248F25B67B3400D51F30 /* Combining_Obseravles.swift */,
+			);
+			path = mySwift;
+			sourceTree = "<group>";
+		};
+		E410249325B6AB3F00D51F30 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E438730E25C8DF900098733C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E438730F25C8E0990098733C /* ContentsTableSection.swift */,
+				E4A21E8F25FB36F8003E3DFB /* ContentsTableViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E43F6D4825BE54550030FDB9 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				E43F6D4A25BE569E0030FDB9 /* DeleteClass.swift */,
+			);
+			path = Delete;
+			sourceTree = "<group>";
+		};
+		E485D81525ABF7E400B51F0E = {
+			isa = PBXGroup;
+			children = (
+				E485D82025ABF7E400B51F0E /* fan_recoder.co */,
+				E485D83A25ABF7E400B51F0E /* fan_recoder.coTests */,
+				E485D84525ABF7E400B51F0E /* fan_recoder.coUITests */,
+				E485D81F25ABF7E400B51F0E /* Products */,
+				976AFDCFB0CFF583F4168746 /* Pods */,
+				53B9D4881A3437C83EACAFE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E485D81F25ABF7E400B51F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E485D81E25ABF7E400B51F0E /* fan_recoder.co.app */,
+				E485D83725ABF7E400B51F0E /* fan_recoder.coTests.xctest */,
+				E485D84225ABF7E400B51F0E /* fan_recoder.coUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E485D82025ABF7E400B51F0E /* fan_recoder.co */ = {
+			isa = PBXGroup;
+			children = (
+				E410249325B6AB3F00D51F30 /* view */,
+				E48C574425AC5310004623FE /* README */,
+				E4EF510826097C110097BB5A /* ViewCon */,
+				E48C574025AC4984004623FE /* localData */,
+				E438730E25C8DF900098733C /* Model */,
+				E485D82125ABF7E400B51F0E /* AppDelegate.swift */,
+				E485D82325ABF7E400B51F0E /* SceneDelegate.swift */,
+				E485D82525ABF7E400B51F0E /* ViewController.swift */,
+				E485D82725ABF7E400B51F0E /* Main.storyboard */,
+				E485D82D25ABF7E400B51F0E /* Assets.xcassets */,
+				E485D82F25ABF7E400B51F0E /* LaunchScreen.storyboard */,
+				E485D83225ABF7E400B51F0E /* Info.plist */,
+				E485D82A25ABF7E400B51F0E /* fan_recoder_co.xcdatamodeld */,
+				E4A21E9125FB4235003E3DFB /* Util */,
+				E4EF510926097C5C0097BB5A /* Extension */,
+				E410248E25B67ADE00D51F30 /* mySwift */,
+				E43F6D4825BE54550030FDB9 /* Delete */,
+				E43F6D4925BE54D40030FDB9 /* README.md */,
+			);
+			path = fan_recoder.co;
+			sourceTree = "<group>";
+		};
+		E485D83A25ABF7E400B51F0E /* fan_recoder.coTests */ = {
+			isa = PBXGroup;
+			children = (
+				E485D83B25ABF7E400B51F0E /* fan_recoder_coTests.swift */,
+				E485D83D25ABF7E400B51F0E /* Info.plist */,
+			);
+			path = fan_recoder.coTests;
+			sourceTree = "<group>";
+		};
+		E485D84525ABF7E400B51F0E /* fan_recoder.coUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E485D84625ABF7E400B51F0E /* fan_recoder_coUITests.swift */,
+				E485D84825ABF7E400B51F0E /* Info.plist */,
+			);
+			path = fan_recoder.coUITests;
+			sourceTree = "<group>";
+		};
+		E48C574025AC4984004623FE /* localData */ = {
+			isa = PBXGroup;
+			children = (
+				E41E4ABA25C50E70000838BC /* LcocatizedData.swift */,
+				A69DE3052859B8DC0085FF7E /* Common.swift */,
+			);
+			path = localData;
+			sourceTree = "<group>";
+		};
+		E48C574425AC5310004623FE /* README */ = {
+			isa = PBXGroup;
+			children = (
+				E48C574525AC53F7004623FE /* String_format.rtfd */,
+				E46BE8BA25AD4C5F003393A4 /* Array_use.md */,
+				E4A21E8C25F9EEA0003E3DFB /* simple_code.md */,
+			);
+			path = README;
+			sourceTree = "<group>";
+		};
+		E4A21E9125FB4235003E3DFB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E4A21E9225FB4262003E3DFB /* DebugLog.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E4EF510826097C110097BB5A /* ViewCon */ = {
+			isa = PBXGroup;
+			children = (
+				E410249625B6B77800D51F30 /* TestView.swift */,
+				E48C574225AC4AF8004623FE /* firstView.swift */,
+				E4A21E8D25F9F1E9003E3DFB /* TestView.storyboard */,
+				E4858C0825C106B100A6C616 /* ContentsRxTableView.swift */,
+				A69DE3022859B3AE0085FF7E /* Rx */,
+			);
+			path = ViewCon;
+			sourceTree = "<group>";
+		};
+		E4EF510926097C5C0097BB5A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E46BE8C325B00F27003393A4 /* PrivateColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E485D81D25ABF7E400B51F0E /* fan_recoder.co */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E485D84B25ABF7E400B51F0E /* Build configuration list for PBXNativeTarget "fan_recoder.co" */;
+			buildPhases = (
+				0206F6FEA21FD1F1DD339D2E /* [CP] Check Pods Manifest.lock */,
+				E485D81A25ABF7E400B51F0E /* Sources */,
+				E485D81B25ABF7E400B51F0E /* Frameworks */,
+				E485D81C25ABF7E400B51F0E /* Resources */,
+				27BABB1F136D79918450E576 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fan_recoder.co;
+			productName = fan_recoder.co;
+			productReference = E485D81E25ABF7E400B51F0E /* fan_recoder.co.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E485D83625ABF7E400B51F0E /* fan_recoder.coTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E485D84E25ABF7E400B51F0E /* Build configuration list for PBXNativeTarget "fan_recoder.coTests" */;
+			buildPhases = (
+				E8D4945ECD215F00E61E7730 /* [CP] Check Pods Manifest.lock */,
+				E485D83325ABF7E400B51F0E /* Sources */,
+				E485D83425ABF7E400B51F0E /* Frameworks */,
+				E485D83525ABF7E400B51F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E485D83925ABF7E400B51F0E /* PBXTargetDependency */,
+			);
+			name = fan_recoder.coTests;
+			productName = fan_recoder.coTests;
+			productReference = E485D83725ABF7E400B51F0E /* fan_recoder.coTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E485D84125ABF7E400B51F0E /* fan_recoder.coUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E485D85125ABF7E400B51F0E /* Build configuration list for PBXNativeTarget "fan_recoder.coUITests" */;
+			buildPhases = (
+				19CC6E84B8D68E6FF3610E24 /* [CP] Check Pods Manifest.lock */,
+				E485D83E25ABF7E400B51F0E /* Sources */,
+				E485D83F25ABF7E400B51F0E /* Frameworks */,
+				E485D84025ABF7E400B51F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E485D84425ABF7E400B51F0E /* PBXTargetDependency */,
+			);
+			name = fan_recoder.coUITests;
+			productName = fan_recoder.coUITests;
+			productReference = E485D84225ABF7E400B51F0E /* fan_recoder.coUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E485D81625ABF7E400B51F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = yons;
+				TargetAttributes = {
+					E485D81D25ABF7E400B51F0E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E485D83625ABF7E400B51F0E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E485D81D25ABF7E400B51F0E;
+					};
+					E485D84125ABF7E400B51F0E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E485D81D25ABF7E400B51F0E;
+					};
+				};
+			};
+			buildConfigurationList = E485D81925ABF7E400B51F0E /* Build configuration list for PBXProject "fan_recoder.co" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E485D81525ABF7E400B51F0E;
+			productRefGroup = E485D81F25ABF7E400B51F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E485D81D25ABF7E400B51F0E /* fan_recoder.co */,
+				E485D83625ABF7E400B51F0E /* fan_recoder.coTests */,
+				E485D84125ABF7E400B51F0E /* fan_recoder.coUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E485D81C25ABF7E400B51F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A21E9B25FB677C003E3DFB /* RxtableViewController2.storyboard in Resources */,
+				E485D83125ABF7E400B51F0E /* LaunchScreen.storyboard in Resources */,
+				E485D82E25ABF7E400B51F0E /* Assets.xcassets in Resources */,
+				E48C574625AC53F7004623FE /* String_format.rtfd in Resources */,
+				E4A21E8E25F9F1E9003E3DFB /* TestView.storyboard in Resources */,
+				E4A6254825CBC76D0033D214 /* RxtableViewController.storyboard in Resources */,
+				E485D82925ABF7E400B51F0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E485D83525ABF7E400B51F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E485D84025ABF7E400B51F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0206F6FEA21FD1F1DD339D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fan_recoder.co-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19CC6E84B8D68E6FF3610E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fan_recoder.coUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27BABB1F136D79918450E576 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fan_recoder.co/Pods-fan_recoder.co-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fan_recoder.co/Pods-fan_recoder.co-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fan_recoder.co/Pods-fan_recoder.co-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D4945ECD215F00E61E7730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fan_recoder.coTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E485D81A25ABF7E400B51F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E485D82C25ABF7E400B51F0E /* fan_recoder_co.xcdatamodeld in Sources */,
+				E4A21E9025FB36F8003E3DFB /* ContentsTableViewModel.swift in Sources */,
+				E4A21E9325FB4262003E3DFB /* DebugLog.swift in Sources */,
+				E4A6254625CBC7430033D214 /* RxtableViewController.swift in Sources */,
+				A69DE3062859B8DC0085FF7E /* Common.swift in Sources */,
+				A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */,
+				E485D82625ABF7E400B51F0E /* ViewController.swift in Sources */,
+				E485D82225ABF7E400B51F0E /* AppDelegate.swift in Sources */,
+				E410249725B6B77800D51F30 /* TestView.swift in Sources */,
+				E485D82425ABF7E400B51F0E /* SceneDelegate.swift in Sources */,
+				E410249025B67B3400D51F30 /* Combining_Obseravles.swift in Sources */,
+				E4858C0925C106B100A6C616 /* ContentsRxTableView.swift in Sources */,
+				E4A21E9D25FB6798003E3DFB /* RxtableViewController2.swift in Sources */,
+				E41E4ABB25C50E70000838BC /* LcocatizedData.swift in Sources */,
+				E48C574325AC4AF8004623FE /* firstView.swift in Sources */,
+				E46BE8C425B00F27003393A4 /* PrivateColor.swift in Sources */,
+				E43F6D4B25BE569E0030FDB9 /* DeleteClass.swift in Sources */,
+				E438731025C8E0990098733C /* ContentsTableSection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E485D83325ABF7E400B51F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E485D83C25ABF7E400B51F0E /* fan_recoder_coTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E485D83E25ABF7E400B51F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E485D84725ABF7E400B51F0E /* fan_recoder_coUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E485D83925ABF7E400B51F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E485D81D25ABF7E400B51F0E /* fan_recoder.co */;
+			targetProxy = E485D83825ABF7E400B51F0E /* PBXContainerItemProxy */;
+		};
+		E485D84425ABF7E400B51F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E485D81D25ABF7E400B51F0E /* fan_recoder.co */;
+			targetProxy = E485D84325ABF7E400B51F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E485D82725ABF7E400B51F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E485D82825ABF7E400B51F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E485D82F25ABF7E400B51F0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E485D83025ABF7E400B51F0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E485D84925ABF7E400B51F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E485D84A25ABF7E400B51F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E485D84C25ABF7E400B51F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0448DC83D1040EF3C33DD529 /* Pods-fan_recoder.co.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SGCASK6DU;
+				INFOPLIST_FILE = fan_recoder.co/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fan.fan-recoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E485D84D25ABF7E400B51F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A071C21640DC862E238BF842 /* Pods-fan_recoder.co.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SGCASK6DU;
+				INFOPLIST_FILE = fan_recoder.co/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fan.fan-recoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E485D84F25ABF7E400B51F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3A2207BBAC6681EF2C31BE /* Pods-fan_recoder.coTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SGCASK6DU;
+				INFOPLIST_FILE = fan_recoder.coTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fan.fan-recoder-coTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fan_recoder.co.app/fan_recoder.co";
+			};
+			name = Debug;
+		};
+		E485D85025ABF7E400B51F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D976A161E413DCD1D2A7AC6E /* Pods-fan_recoder.coTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SGCASK6DU;
+				INFOPLIST_FILE = fan_recoder.coTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fan.fan-recoder-coTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fan_recoder.co.app/fan_recoder.co";
+			};
+			name = Release;
+		};
+		E485D85225ABF7E400B51F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8945E94E80C9AF563FA5B8 /* Pods-fan_recoder.coUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SGCASK6DU;
+				INFOPLIST_FILE = fan_recoder.coUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fan.fan-recoder-coUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fan_recoder.co;
+			};
+			name = Debug;
+		};
+		E485D85325ABF7E400B51F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E86F755A4988F47F7402969 /* Pods-fan_recoder.coUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SGCASK6DU;
+				INFOPLIST_FILE = fan_recoder.coUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fan.fan-recoder-coUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fan_recoder.co;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E485D81925ABF7E400B51F0E /* Build configuration list for PBXProject "fan_recoder.co" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E485D84925ABF7E400B51F0E /* Debug */,
+				E485D84A25ABF7E400B51F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E485D84B25ABF7E400B51F0E /* Build configuration list for PBXNativeTarget "fan_recoder.co" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E485D84C25ABF7E400B51F0E /* Debug */,
+				E485D84D25ABF7E400B51F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E485D84E25ABF7E400B51F0E /* Build configuration list for PBXNativeTarget "fan_recoder.coTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E485D84F25ABF7E400B51F0E /* Debug */,
+				E485D85025ABF7E400B51F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E485D85125ABF7E400B51F0E /* Build configuration list for PBXNativeTarget "fan_recoder.coUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E485D85225ABF7E400B51F0E /* Debug */,
+				E485D85325ABF7E400B51F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E485D82A25ABF7E400B51F0E /* fan_recoder_co.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E485D82B25ABF7E400B51F0E /* fan_recoder_co.xcdatamodel */,
+			);
+			currentVersion = E485D82B25ABF7E400B51F0E /* fan_recoder_co.xcdatamodel */;
+			path = fan_recoder_co.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E485D81625ABF7E400B51F0E /* Project object */;
+}

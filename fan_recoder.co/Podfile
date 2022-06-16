@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+use_frameworks!
+
+target 'fan_recoder.co' do
+
+  # Pods for fan_recoder.co
+
+  pod 'RxSwift',   '~> 4.0'
+  pod 'RxCocoa',   '~> 4.0'
+  pod 'RxDataSources', '~> 3.0'
+end
+
+
+target 'fan_recoder.coTests' do
+    inherit! :search_paths
+    # Pods for testing
+ end
+
+target 'fan_recoder.coUITests' do
+    # Pods for testing
+end
+
