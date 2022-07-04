@@ -19,6 +19,6 @@ struct DebugLog {
     
     static func D(_ message: String,_ args: CVarArg...,filename: String = #file,method: String = #function,line: Int = #line) {
         
-        NSLog("%@ %d:%@\n%@",filename,line,method,String(format: message, args))
+        NSLog("%@ %d:%@:%@",filename,line,method,String(format: message, args))
     }
 }

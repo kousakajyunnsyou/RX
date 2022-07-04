@@ -10,12 +10,10 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class RxSwift5: UIViewController {
+class RxSwift5: BaseVCWithLableViewController {
     
     let disposeBag = DisposeBag()
 
-    var lables: [UILabel] = []
-    
     lazy var lableforBind: UILabel = {
         let view = createLable()
         return view
@@ -32,13 +30,14 @@ class RxSwift5: UIViewController {
     }()
     
     override func viewDidLoad() {
-        super.viewDidLoad()
 
         setUpUI()
 
         useBind()
         useAnyObserver()
         useBinder()
+        
+        super.viewDidLoad()
     }
 
 }
@@ -111,25 +110,5 @@ extension RxSwift5 {
         lables.append(lableforAnyObserver)
         lables.append(lableforBinder)
         
-        for lable in lables {
-            view.addSubview(lable)
-        }
-    }
-    
-    func createLable() -> UILabel {
-        let margin: CGFloat = CGFloat(lables.count * 50)
-        
-        let view = UILabel()
-        view.frame.size = CGSize(width: 200, height: 40)
-        view.center = CGPoint(x: KScreenWidth/2, y: KSafeH + 30 + margin)
-        //宽高自适应
-        view.autoresizingMask = [.flexibleHeight, .flexibleWidth]
-        view.layer.borderColor = CGColor(red: 0, green: 122, blue: 255, alpha: 1)
-        view.layer.borderWidth = 0.5
-        
-        //设置圆角
-        view.layer.cornerRadius = 25
-        
-        return view
     }
 }

@@ -46,7 +46,7 @@ class ContentsRxTableView: UIViewController {
             .map { index in
                 return (index, dataSource[index])
         }.subscribe(onNext: {(index,element) in
-            print("点击了\(element)")
+            DebugLog.D("点击了\(element)")
             if let storyboardName = element.toView {
                 let vc = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: storyboardName)
                 self.navigationController?.pushViewController(vc, animated: true)

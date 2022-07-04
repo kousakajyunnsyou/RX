@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		46B6DD0F1646F893B5C1DB56 /* Pods_fan_recoder_coTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37352E34538DB53CFEC9E94 /* Pods_fan_recoder_coTests.framework */; };
 		49CC7E93639AF40B6479DC50 /* Pods_fan_recoder_coUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5E1B618FC319957372291D /* Pods_fan_recoder_coUITests.framework */; };
+		A622E6662861B3F10093C846 /* RxSwift6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A622E6652861B3F10093C846 /* RxSwift6.swift */; };
+		A66A32CC286A966100E4FDB5 /* BaseVCWithLableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A32CB286A966100E4FDB5 /* BaseVCWithLableViewController.swift */; };
 		A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3032859B5100085FF7E /* RxSwift5.swift */; };
 		A69DE3062859B8DC0085FF7E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3052859B8DC0085FF7E /* Common.swift */; };
 		E410249025B67B3400D51F30 /* Combining_Obseravles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410248F25B67B3400D51F30 /* Combining_Obseravles.swift */; };
@@ -65,6 +67,8 @@
 		8D5E1B618FC319957372291D /* Pods_fan_recoder_coUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fan_recoder_coUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F01604B2A3194EF58D074B0 /* Pods-fan_recoder.co-fan_recoder.coUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.co-fan_recoder.coUITests.release.xcconfig"; path = "Target Support Files/Pods-fan_recoder.co-fan_recoder.coUITests/Pods-fan_recoder.co-fan_recoder.coUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A071C21640DC862E238BF842 /* Pods-fan_recoder.co.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.co.release.xcconfig"; path = "Target Support Files/Pods-fan_recoder.co/Pods-fan_recoder.co.release.xcconfig"; sourceTree = "<group>"; };
+		A622E6652861B3F10093C846 /* RxSwift6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift6.swift; sourceTree = "<group>"; };
+		A66A32CB286A966100E4FDB5 /* BaseVCWithLableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCWithLableViewController.swift; sourceTree = "<group>"; };
 		A69DE3032859B5100085FF7E /* RxSwift5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift5.swift; sourceTree = "<group>"; };
 		A69DE3052859B8DC0085FF7E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		BF8945E94E80C9AF563FA5B8 /* Pods-fan_recoder.coUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coUITests.debug.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coUITests/Pods-fan_recoder.coUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				A69DE3032859B5100085FF7E /* RxSwift5.swift */,
+				A622E6652861B3F10093C846 /* RxSwift6.swift */,
 				E4A6254525CBC7430033D214 /* RxtableViewController.swift */,
 				E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */,
 				E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */,
@@ -302,6 +307,7 @@
 				E48C574225AC4AF8004623FE /* firstView.swift */,
 				E4A21E8D25F9F1E9003E3DFB /* TestView.storyboard */,
 				E4858C0825C106B100A6C616 /* ContentsRxTableView.swift */,
+				A66A32CB286A966100E4FDB5 /* BaseVCWithLableViewController.swift */,
 				A69DE3022859B3AE0085FF7E /* Rx */,
 			);
 			path = ViewCon;
@@ -542,12 +548,14 @@
 			files = (
 				E485D82C25ABF7E400B51F0E /* fan_recoder_co.xcdatamodeld in Sources */,
 				E4A21E9025FB36F8003E3DFB /* ContentsTableViewModel.swift in Sources */,
+				A622E6662861B3F10093C846 /* RxSwift6.swift in Sources */,
 				E4A21E9325FB4262003E3DFB /* DebugLog.swift in Sources */,
 				E4A6254625CBC7430033D214 /* RxtableViewController.swift in Sources */,
 				A69DE3062859B8DC0085FF7E /* Common.swift in Sources */,
 				A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */,
 				E485D82625ABF7E400B51F0E /* ViewController.swift in Sources */,
 				E485D82225ABF7E400B51F0E /* AppDelegate.swift in Sources */,
+				A66A32CC286A966100E4FDB5 /* BaseVCWithLableViewController.swift in Sources */,
 				E410249725B6B77800D51F30 /* TestView.swift in Sources */,
 				E485D82425ABF7E400B51F0E /* SceneDelegate.swift in Sources */,
 				E410249025B67B3400D51F30 /* Combining_Obseravles.swift in Sources */,
