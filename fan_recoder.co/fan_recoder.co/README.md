@@ -10,3 +10,6 @@
     mySwift : 非视图类
     Delete : 临时文件
 
+## 备注
+ ### RxSwift 部分参考以下链接 ↓
+  https://www.jianshu.com/p/f61a5a988590
