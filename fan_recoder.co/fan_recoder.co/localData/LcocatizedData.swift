@@ -17,6 +17,7 @@ class LcocatizedData: NSObject {
                                          TableDataModel(name: "观察者2： 自定义可绑定属性", vc: RxSwift6()),
                                          TableDataModel(name: "UI控件扩展1：UILabel", vc: RxSwift21()),
                                          TableDataModel(name: "UI控件扩展2：UITextField、UITextView", toView: "RxSwift22StoryBoard"),
+                                         TableDataModel(name: "UI控件扩展3：UIButton、UIBarButtonItem", vc: RxSwift23()),
                                          TableDataModel(name: "表格的使用", toView: "RxtableViewController"),
                                          TableDataModel(name: "暂不可用"),
                                          TableDataModel(name: "测试用", toView: "TestView")]

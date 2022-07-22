@@ -25,7 +25,9 @@ class RxSwift22: UIViewController {
     @IBOutlet weak var textField3_1: UITextField!
     @IBOutlet weak var textField3_2: UITextField!
     @IBOutlet weak var lable3: UILabel!
-    
+    //例4
+    @IBOutlet weak var textField4_1: UITextField!
+    @IBOutlet weak var textField4_2: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,5 +58,24 @@ class RxSwift22: UIViewController {
         }
         .bind(to: lable3.rx.text)
         .disposed(by: disposeBag)
+        
+        //------------------------例4：通过 rx.controlEvent 可以监听输入框的各种事件，且多个事件状态可以自由组合。
+        /*
+         除了各种 UI 控件都有的 touch 事件外，输入框还有如下几个独有的事件：
+
+         editingDidBegin：开始编辑（开始输入内容）
+         editingChanged：输入内容发生改变
+         editingDidEnd：结束编辑
+         editingDidEndOnExit：按下 return 键结束编辑
+         allEditingEvents：包含前面的所有编辑相关事件
+         */
+        //在用户名输入框中按下 return 键，密码框获得焦点
+        textField4_1.rx.controlEvent(.editingDidEndOnExit).subscribe(onNext: {[weak self] in
+            self?.textField4_2.becomeFirstResponder()
+        }).disposed(by: disposeBag)
+        //在密码输入框中按下 return 键，密码框移除焦点
+        textField4_2.rx.controlEvent(.editingDidEndOnExit).subscribe(onNext: {[weak self] in
+            self?.textField4_2.resignFirstResponder()
+        }).disposed(by: disposeBag)
     }
 }

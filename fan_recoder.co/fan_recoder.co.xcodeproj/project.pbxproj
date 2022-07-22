@@ -12,6 +12,7 @@
 		A622E6662861B3F10093C846 /* RxSwift6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A622E6652861B3F10093C846 /* RxSwift6.swift */; };
 		A66A32CC286A966100E4FDB5 /* BaseVCWithLableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A32CB286A966100E4FDB5 /* BaseVCWithLableViewController.swift */; };
 		A68AA8D0287292AD00129CDA /* RxSwift21.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA8CF287292AD00129CDA /* RxSwift21.swift */; };
+		A698E6F4288A4AD40088FD14 /* RxSwift23.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698E6F3288A4AD40088FD14 /* RxSwift23.swift */; };
 		A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3032859B5100085FF7E /* RxSwift5.swift */; };
 		A69DE3062859B8DC0085FF7E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3052859B8DC0085FF7E /* Common.swift */; };
 		A6BE0A8A287D187F002E8D21 /* RxSwift22.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE0A89287D187F002E8D21 /* RxSwift22.swift */; };
@@ -73,6 +74,7 @@
 		A622E6652861B3F10093C846 /* RxSwift6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift6.swift; sourceTree = "<group>"; };
 		A66A32CB286A966100E4FDB5 /* BaseVCWithLableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCWithLableViewController.swift; sourceTree = "<group>"; };
 		A68AA8CF287292AD00129CDA /* RxSwift21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift21.swift; sourceTree = "<group>"; };
+		A698E6F3288A4AD40088FD14 /* RxSwift23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift23.swift; sourceTree = "<group>"; };
 		A69DE3032859B5100085FF7E /* RxSwift5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift5.swift; sourceTree = "<group>"; };
 		A69DE3052859B8DC0085FF7E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		A6BE0A89287D187F002E8D21 /* RxSwift22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift22.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				A622E6652861B3F10093C846 /* RxSwift6.swift */,
 				A68AA8CF287292AD00129CDA /* RxSwift21.swift */,
 				A6BE0A89287D187F002E8D21 /* RxSwift22.swift */,
+				A698E6F3288A4AD40088FD14 /* RxSwift23.swift */,
 				A6BE0A8B287D1A84002E8D21 /* RxSwift22StoryBoard.storyboard */,
 				E4A6254525CBC7430033D214 /* RxtableViewController.swift */,
 				E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */,
@@ -580,6 +583,7 @@
 				E46BE8C425B00F27003393A4 /* PrivateColor.swift in Sources */,
 				E43F6D4B25BE569E0030FDB9 /* DeleteClass.swift in Sources */,
 				A68AA8D0287292AD00129CDA /* RxSwift21.swift in Sources */,
+				A698E6F4288A4AD40088FD14 /* RxSwift23.swift in Sources */,
 				E438731025C8E0990098733C /* ContentsTableSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
