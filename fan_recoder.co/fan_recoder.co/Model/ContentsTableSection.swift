@@ -35,11 +35,13 @@ extension ContentsTableSection : AnimatableSectionModelType {
 
 struct TableDataModel: Equatable {
     var name: String
+    var storyBoard: String?
     var toView: String?
     var vc: UIViewController?
     
-    init(name:String, toView:String? = nil, vc:UIViewController? = nil) {
+    init(name:String, storyBoard:String? = nil, toView:String? = nil, vc:UIViewController? = nil) {
         self.name = name
+        self.storyBoard = storyBoard
         self.toView = toView
         self.vc = vc
     }

@@ -47,8 +47,8 @@ class ContentsRxTableView: UIViewController {
                 return (index, dataSource[index])
         }.subscribe(onNext: {(index,element) in
             DebugLog.D("点击了\(element)")
-            if let storyboardName = element.toView {
-                let vc = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: storyboardName)
+            if let storyboardName = element.storyBoard, let toView = element.toView {
+                let vc = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: toView)
                 self.navigationController?.pushViewController(vc, animated: true)
                 return
             }else if let vc = element.vc {

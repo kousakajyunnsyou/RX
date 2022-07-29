@@ -15,8 +15,12 @@
 		A698E6F4288A4AD40088FD14 /* RxSwift23.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698E6F3288A4AD40088FD14 /* RxSwift23.swift */; };
 		A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3032859B5100085FF7E /* RxSwift5.swift */; };
 		A69DE3062859B8DC0085FF7E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DE3052859B8DC0085FF7E /* Common.swift */; };
+		A6B04C46288FB967003E313D /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B04C45288FB967003E313D /* UIButton+.swift */; };
+		A6B04C4928938C76003E313D /* RxSwift24.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B04C4728938C76003E313D /* RxSwift24.swift */; };
+		A6B04C4C2893AB88003E313D /* RxSwiftStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B04C4B2893AB88003E313D /* RxSwiftStoryBoard.storyboard */; };
+		A6B04C4E2893B2A9003E313D /* RxSwift25.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B04C4D2893B2A9003E313D /* RxSwift25.swift */; };
+		A6B04C502893BAE7003E313D /* RxSwift26.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B04C4F2893BAE7003E313D /* RxSwift26.swift */; };
 		A6BE0A8A287D187F002E8D21 /* RxSwift22.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE0A89287D187F002E8D21 /* RxSwift22.swift */; };
-		A6BE0A8C287D1A84002E8D21 /* RxSwift22StoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE0A8B287D1A84002E8D21 /* RxSwift22StoryBoard.storyboard */; };
 		E410249025B67B3400D51F30 /* Combining_Obseravles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410248F25B67B3400D51F30 /* Combining_Obseravles.swift */; };
 		E410249725B6B77800D51F30 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410249625B6B77800D51F30 /* TestView.swift */; };
 		E41E4ABB25C50E70000838BC /* LcocatizedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E4ABA25C50E70000838BC /* LcocatizedData.swift */; };
@@ -77,8 +81,12 @@
 		A698E6F3288A4AD40088FD14 /* RxSwift23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift23.swift; sourceTree = "<group>"; };
 		A69DE3032859B5100085FF7E /* RxSwift5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift5.swift; sourceTree = "<group>"; };
 		A69DE3052859B8DC0085FF7E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A6B04C45288FB967003E313D /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		A6B04C4728938C76003E313D /* RxSwift24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift24.swift; sourceTree = "<group>"; };
+		A6B04C4B2893AB88003E313D /* RxSwiftStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwiftStoryBoard.storyboard; sourceTree = "<group>"; };
+		A6B04C4D2893B2A9003E313D /* RxSwift25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift25.swift; sourceTree = "<group>"; };
+		A6B04C4F2893BAE7003E313D /* RxSwift26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift26.swift; sourceTree = "<group>"; };
 		A6BE0A89287D187F002E8D21 /* RxSwift22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift22.swift; sourceTree = "<group>"; };
-		A6BE0A8B287D1A84002E8D21 /* RxSwift22StoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift22StoryBoard.storyboard; sourceTree = "<group>"; };
 		BF8945E94E80C9AF563FA5B8 /* Pods-fan_recoder.coUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coUITests.debug.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coUITests/Pods-fan_recoder.coUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D37352E34538DB53CFEC9E94 /* Pods_fan_recoder_coTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fan_recoder_coTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D976A161E413DCD1D2A7AC6E /* Pods-fan_recoder.coTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coTests.release.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coTests/Pods-fan_recoder.coTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,7 +187,10 @@
 				A68AA8CF287292AD00129CDA /* RxSwift21.swift */,
 				A6BE0A89287D187F002E8D21 /* RxSwift22.swift */,
 				A698E6F3288A4AD40088FD14 /* RxSwift23.swift */,
-				A6BE0A8B287D1A84002E8D21 /* RxSwift22StoryBoard.storyboard */,
+				A6B04C4728938C76003E313D /* RxSwift24.swift */,
+				A6B04C4D2893B2A9003E313D /* RxSwift25.swift */,
+				A6B04C4F2893BAE7003E313D /* RxSwift26.swift */,
+				A6B04C4B2893AB88003E313D /* RxSwiftStoryBoard.storyboard */,
 				E4A6254525CBC7430033D214 /* RxtableViewController.swift */,
 				E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */,
 				E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */,
@@ -329,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				E46BE8C325B00F27003393A4 /* PrivateColor.swift */,
+				A6B04C45288FB967003E313D /* UIButton+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -449,7 +461,7 @@
 				E485D82E25ABF7E400B51F0E /* Assets.xcassets in Resources */,
 				E48C574625AC53F7004623FE /* String_format.rtfd in Resources */,
 				E4A21E8E25F9F1E9003E3DFB /* TestView.storyboard in Resources */,
-				A6BE0A8C287D1A84002E8D21 /* RxSwift22StoryBoard.storyboard in Resources */,
+				A6B04C4C2893AB88003E313D /* RxSwiftStoryBoard.storyboard in Resources */,
 				E4A6254825CBC76D0033D214 /* RxtableViewController.storyboard in Resources */,
 				E485D82925ABF7E400B51F0E /* Main.storyboard in Resources */,
 			);
@@ -569,6 +581,8 @@
 				E4A6254625CBC7430033D214 /* RxtableViewController.swift in Sources */,
 				A69DE3062859B8DC0085FF7E /* Common.swift in Sources */,
 				A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */,
+				A6B04C502893BAE7003E313D /* RxSwift26.swift in Sources */,
+				A6B04C46288FB967003E313D /* UIButton+.swift in Sources */,
 				A6BE0A8A287D187F002E8D21 /* RxSwift22.swift in Sources */,
 				E485D82625ABF7E400B51F0E /* ViewController.swift in Sources */,
 				E485D82225ABF7E400B51F0E /* AppDelegate.swift in Sources */,
@@ -579,10 +593,12 @@
 				E4858C0925C106B100A6C616 /* ContentsRxTableView.swift in Sources */,
 				E4A21E9D25FB6798003E3DFB /* RxtableViewController2.swift in Sources */,
 				E41E4ABB25C50E70000838BC /* LcocatizedData.swift in Sources */,
+				A6B04C4E2893B2A9003E313D /* RxSwift25.swift in Sources */,
 				E48C574325AC4AF8004623FE /* firstView.swift in Sources */,
 				E46BE8C425B00F27003393A4 /* PrivateColor.swift in Sources */,
 				E43F6D4B25BE569E0030FDB9 /* DeleteClass.swift in Sources */,
 				A68AA8D0287292AD00129CDA /* RxSwift21.swift in Sources */,
+				A6B04C4928938C76003E313D /* RxSwift24.swift in Sources */,
 				A698E6F4288A4AD40088FD14 /* RxSwift23.swift in Sources */,
 				E438731025C8E0990098733C /* ContentsTableSection.swift in Sources */,
 			);
