@@ -7,24 +7,32 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
 class RxSwift29: UIViewController {
 
+    @IBOutlet weak var datePicter: UIDatePicker!
+    @IBOutlet weak var timeLable: UILabel!
+    
+    lazy var dateFormater: DateFormatter = {
+        let df = DateFormatter()
+        df.dateFormat = "yyyy年MM月dd日 HH:mm"
+        return df
+    }()
+    
+    let disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        datePicter.rx.date
+            .map{[weak self] in
+                "当前选择时间:\n" + self!.dateFormater.string(from: $0)
+            }
+            .bind(to: timeLable.rx.text)
+            .disposed(by: disposeBag)
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

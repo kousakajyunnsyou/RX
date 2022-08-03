@@ -23,6 +23,7 @@
 		A6BE0A8A287D187F002E8D21 /* RxSwift22.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE0A89287D187F002E8D21 /* RxSwift22.swift */; };
 		A6C9B2A52898FF9E004E937A /* RxSwift29.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9B2A42898FF9E004E937A /* RxSwift29.swift */; };
 		A6C9B2A72898FFAB004E937A /* RxSwift30.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9B2A62898FFAB004E937A /* RxSwift30.swift */; };
+		A6C9B2A9289910D6004E937A /* RxSwift31.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9B2A8289910D5004E937A /* RxSwift31.swift */; };
 		A6D21DEF28950EB200280A29 /* RxSwift28.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D21DEE28950EB200280A29 /* RxSwift28.swift */; };
 		E410249025B67B3400D51F30 /* Combining_Obseravles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410248F25B67B3400D51F30 /* Combining_Obseravles.swift */; };
 		E410249725B6B77800D51F30 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410249625B6B77800D51F30 /* TestView.swift */; };
@@ -47,8 +48,7 @@
 		E4A21E9325FB4262003E3DFB /* DebugLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A21E9225FB4262003E3DFB /* DebugLog.swift */; };
 		E4A21E9B25FB677C003E3DFB /* RxtableViewController2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A21E9A25FB677C003E3DFB /* RxtableViewController2.storyboard */; };
 		E4A21E9D25FB6798003E3DFB /* RxtableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */; };
-		E4A6254625CBC7430033D214 /* RxtableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6254525CBC7430033D214 /* RxtableViewController.swift */; };
-		E4A6254825CBC76D0033D214 /* RxtableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */; };
+		E4A6254625CBC7430033D214 /* RxSwift32And33.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6254525CBC7430033D214 /* RxSwift32And33.swift */; };
 		EDC3C7A19998F541B27A59ED /* Pods_fan_recoder_co.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B1FE9419ED713906E9AB9B /* Pods_fan_recoder_co.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +92,7 @@
 		A6BE0A89287D187F002E8D21 /* RxSwift22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift22.swift; sourceTree = "<group>"; };
 		A6C9B2A42898FF9E004E937A /* RxSwift29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift29.swift; sourceTree = "<group>"; };
 		A6C9B2A62898FFAB004E937A /* RxSwift30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift30.swift; sourceTree = "<group>"; };
+		A6C9B2A8289910D5004E937A /* RxSwift31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift31.swift; sourceTree = "<group>"; };
 		A6D21DEE28950EB200280A29 /* RxSwift28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift28.swift; sourceTree = "<group>"; };
 		BF8945E94E80C9AF563FA5B8 /* Pods-fan_recoder.coUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fan_recoder.coUITests.debug.xcconfig"; path = "Target Support Files/Pods-fan_recoder.coUITests/Pods-fan_recoder.coUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D37352E34538DB53CFEC9E94 /* Pods_fan_recoder_coTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fan_recoder_coTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,8 +129,7 @@
 		E4A21E9225FB4262003E3DFB /* DebugLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLog.swift; sourceTree = "<group>"; };
 		E4A21E9A25FB677C003E3DFB /* RxtableViewController2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxtableViewController2.storyboard; sourceTree = "<group>"; };
 		E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxtableViewController2.swift; sourceTree = "<group>"; };
-		E4A6254525CBC7430033D214 /* RxtableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxtableViewController.swift; sourceTree = "<group>"; };
-		E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxtableViewController.storyboard; sourceTree = "<group>"; };
+		E4A6254525CBC7430033D214 /* RxSwift32And33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift32And33.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,9 +199,9 @@
 				A6D21DEE28950EB200280A29 /* RxSwift28.swift */,
 				A6C9B2A42898FF9E004E937A /* RxSwift29.swift */,
 				A6C9B2A62898FFAB004E937A /* RxSwift30.swift */,
+				A6C9B2A8289910D5004E937A /* RxSwift31.swift */,
 				A6B04C4B2893AB88003E313D /* RxSwiftStoryBoard.storyboard */,
-				E4A6254525CBC7430033D214 /* RxtableViewController.swift */,
-				E4A6254725CBC76D0033D214 /* RxtableViewController.storyboard */,
+				E4A6254525CBC7430033D214 /* RxSwift32And33.swift */,
 				E4A21E9C25FB6798003E3DFB /* RxtableViewController2.swift */,
 				E4A21E9A25FB677C003E3DFB /* RxtableViewController2.storyboard */,
 			);
@@ -471,7 +471,6 @@
 				E48C574625AC53F7004623FE /* String_format.rtfd in Resources */,
 				E4A21E8E25F9F1E9003E3DFB /* TestView.storyboard in Resources */,
 				A6B04C4C2893AB88003E313D /* RxSwiftStoryBoard.storyboard in Resources */,
-				E4A6254825CBC76D0033D214 /* RxtableViewController.storyboard in Resources */,
 				E485D82925ABF7E400B51F0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,7 +586,7 @@
 				E4A21E9025FB36F8003E3DFB /* ContentsTableViewModel.swift in Sources */,
 				A622E6662861B3F10093C846 /* RxSwift6.swift in Sources */,
 				E4A21E9325FB4262003E3DFB /* DebugLog.swift in Sources */,
-				E4A6254625CBC7430033D214 /* RxtableViewController.swift in Sources */,
+				E4A6254625CBC7430033D214 /* RxSwift32And33.swift in Sources */,
 				A6C9B2A52898FF9E004E937A /* RxSwift29.swift in Sources */,
 				A69DE3062859B8DC0085FF7E /* Common.swift in Sources */,
 				A69DE3042859B5100085FF7E /* RxSwift5.swift in Sources */,
@@ -600,6 +599,7 @@
 				E485D82225ABF7E400B51F0E /* AppDelegate.swift in Sources */,
 				A66A32CC286A966100E4FDB5 /* BaseVCWithLableViewController.swift in Sources */,
 				E410249725B6B77800D51F30 /* TestView.swift in Sources */,
+				A6C9B2A9289910D6004E937A /* RxSwift31.swift in Sources */,
 				E485D82425ABF7E400B51F0E /* SceneDelegate.swift in Sources */,
 				E410249025B67B3400D51F30 /* Combining_Obseravles.swift in Sources */,
 				E4858C0925C106B100A6C616 /* ContentsRxTableView.swift in Sources */,

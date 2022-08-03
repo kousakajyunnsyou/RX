@@ -24,7 +24,8 @@ class LcocatizedData: NSObject {
                                          TableDataModel(name: "UI控件扩展7：UIGestureRecognizer", vc: RxSwift28()),
                                          TableDataModel(name: "UI控件扩展8：UIDatePicker", storyBoard: "RxSwiftStoryBoard", toView: "RxSwift29"),
                                          TableDataModel(name: "UITableView的使用1：基本用法", vc: RxSwift30()),
-                                         TableDataModel(name: "表格的使用", storyBoard: "RxtableViewController", toView: "RxtableViewController"),
+                                         TableDataModel(name: "UITableView的使用2：RxDataSources", vc: RxSwift31()),
+                                         TableDataModel(name: "UITableView的使用3：刷新表格数据,4：表格数据的搜索过滤", storyBoard: "RxSwiftStoryBoard", toView: "RxSwift32And33"),
                                          TableDataModel(name: "暂不可用"),
                                          TableDataModel(name: "测试用",storyBoard: "TestView", toView: "TestView")]
 }

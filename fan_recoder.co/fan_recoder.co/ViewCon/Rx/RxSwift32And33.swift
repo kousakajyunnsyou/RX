@@ -4,7 +4,8 @@
 //
 //  Created by yons on 2021/2/4.
 //  Copyright © 2021 yons. All rights reserved.
-//
+//  UITableView的使用3：刷新表格数据
+//  UITableView的使用4：表格数据的搜索过滤
 
 import UIKit
 import Foundation
@@ -12,7 +13,7 @@ import RxSwift
 import RxDataSources
 import RxCocoa
 
-class RxtableViewController: UIViewController {
+class RxSwift32And33: UIViewController {
     
     //表格
     @IBOutlet weak var test_table: UITableView!
@@ -84,8 +85,7 @@ class RxtableViewController: UIViewController {
         self.test_table.tableHeaderView = self.searchBar
     }
     
-    //MARK:处理数据
-    
+    //处理数据
     func dataSource() -> RxTableViewSectionedAnimatedDataSource<AnimatableSectionModel<String, Int>> {
         return RxTableViewSectionedAnimatedDataSource(
             animationConfiguration: AnimationConfiguration(
