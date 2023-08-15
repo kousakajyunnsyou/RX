@@ -49,10 +49,12 @@ class ContentsRxTableView: UIViewController {
             DebugLog.D("点击了\(element)")
             if let storyboardName = element.storyBoard, let toView = element.toView {
                 let vc = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: toView)
+                vc.title = element.name
                 self.navigationController?.pushViewController(vc, animated: true)
                 return
             }else if let vc = element.vc {
                 vc.view.backgroundColor = .white
+                vc.title = element.name
                 self.navigationController?.pushViewController(vc, animated: true)
             }
         }).disposed(by: disposeage)
